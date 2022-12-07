@@ -1,0 +1,4 @@
+keytool -genkey -alias Tejal -keyalg RSA -keystore "folder path\2020BTECS00203.jsk"
+keytool -v -list -keystore "folder path\2020BTECS00203.jsk"
+
+keytool -export -alias Tejal -file "folder path\2020BTECS00203_public_cert/cer" -keystore "folder name/2020BTECS00203.jsk"
